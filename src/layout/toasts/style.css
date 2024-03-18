@@ -1,0 +1,21 @@
+@keyframes toast_base {
+    0% {
+        opacity: 0.3;
+        transform: translateX(100%);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes toast_base_alt {
+    0% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    100% {
+        opacity: 0.3;
+        transform: translateX(100%);
+    }
+}

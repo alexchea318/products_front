@@ -1,0 +1,15 @@
+@keyframes load {
+    from {
+        background-position-x: -150px;
+    }
+    to   {
+        background-position-x: 100%;
+    }
+}
+
+.load{
+    background: linear-gradient(to right, transparent 0%, #E8E8E8 50%, transparent 100%);
+    border-radius: 10px;
+    animation: load 1s cubic-bezier(0.4, 0.0, 0.2, 1) infinite;
+    animation-direction: alternate;
+}
